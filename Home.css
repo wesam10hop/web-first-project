@@ -328,3 +328,9 @@ body{
     text-align: center;
 
 }
+
+ .scroll{
+    overflow-x: auto;
+    display: flex;
+    scrollbar-color: aqua transparent;
+}
