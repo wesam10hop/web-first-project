@@ -220,3 +220,50 @@ body{
         flex: 1 1 10%; 
     }
 }
+
+    #about{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 20px;
+        gap: 120px;
+    }
+
+    .text_about_us{
+       flex: 1 1 300px;
+       max-width: 100%;
+    }
+
+    .text_about_us h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .text_about_us p {
+      margin-bottom: 40px;
+    }
+
+    .text_about_us a:visited , .text_about_us a:link{
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-color: #089da1;
+    background-color: #089da1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size:small;
+    padding: 3px 13px ;
+    }
+
+    .img_about_us{
+        flex: 1 1 300px;
+        max-width: 100%; 
+    }
+
+    .img_about_us img{
+        width: 100%;
+        height: auto;
+    }
