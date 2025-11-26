@@ -43,3 +43,11 @@ body{
     gap: 25px;
     align-items: center;
 }
+
+.navBar a {
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
