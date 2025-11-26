@@ -267,3 +267,29 @@ body{
         width: 100%;
         height: auto;
     }
+
+
+     .first-sec{
+    margin-top: 20%;
+}
+
+ .adress{
+    text-align: center;
+    font-size:xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .book-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid thin rgba(0,0,0,0.2);
+    margin: 2.5%;
+    margin-top: 1%;
+}
+
+ .book-box:hover{
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 1px 6px #089da1;
+}
