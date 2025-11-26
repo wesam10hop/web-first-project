@@ -93,8 +93,6 @@ body{
         display: block;
     }
 }
-<<<<<<< HEAD
-=======
 
 .hero_section {
     display: flex;
@@ -159,4 +157,175 @@ body{
         text-align: center;
     }
 }
->>>>>>> wesam
+
+
+.features {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature {
+    padding: 15px;
+    flex: 1 1 200px; 
+    max-width: 250px;
+    box-shadow: 0px 1px 6px #089da1;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    background-color: azure;
+}
+
+.feature h4 {
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.feature p {
+    font-size: medium;
+    margin-top: 5px;
+    color: #555;
+}
+
+.feature i {
+    padding-top: 10px;
+    color: #089da1;
+    font-size: 36px;
+}
+
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .feature {
+        width: 90%; 
+        max-width: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .feature {
+        flex: 1 1 10%; 
+    }
+}
+
+    #about{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 20px;
+        gap: 120px;
+    }
+
+    .text_about_us{
+       flex: 1 1 300px;
+       max-width: 100%;
+    }
+
+    .text_about_us h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .text_about_us p {
+      margin-bottom: 40px;
+    }
+
+    .text_about_us a:visited , .text_about_us a:link{
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-color: #089da1;
+    background-color: #089da1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size:small;
+    padding: 3px 13px ;
+    }
+
+    .img_about_us{
+        flex: 1 1 300px;
+        max-width: 100%; 
+    }
+
+    .img_about_us img{
+        width: 100%;
+        height: auto;
+    }
+
+
+     .first-sec{
+    margin-top: 20%;
+}
+
+ .adress{
+    text-align: center;
+    font-size:xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .book-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid thin rgba(0,0,0,0.2);
+    margin: 2.5%;
+    margin-top: 1%;
+}
+
+ .book-box:hover{
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 1px 6px #089da1;
+}
+
+ .images{
+    padding: 50px;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    width: 120px;
+    height: 180px;
+}
+
+ .text1-book{
+    font-weight: bold;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .text2-book{
+    color: #cacaca;
+}
+
+ .text3-book{
+    color: aqua;
+    font-size: medium;
+}
+
+ .text5-book{
+    border: #98c3bd solid;
+    border-width: thin;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+
+}
