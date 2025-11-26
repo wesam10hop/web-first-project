@@ -157,3 +157,47 @@ body{
         text-align: center;
     }
 }
+
+.features {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature {
+    padding: 15px;
+    flex: 1 1 200px; 
+    max-width: 250px;
+    box-shadow: 0px 1px 6px #089da1;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    background-color: azure;
+}
+
+.feature h4 {
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.feature p {
+    font-size: medium;
+    margin-top: 5px;
+    color: #555;
+}
+
+.feature i {
+    padding-top: 10px;
+    color: #089da1;
+    font-size: 36px;
+}
