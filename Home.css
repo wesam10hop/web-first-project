@@ -138,3 +138,15 @@ body{
     font-size:small;
     padding: 3px 13px ;
 }
+
+.image_content {
+    flex: 1 1 400px;
+    text-align: center;
+}
+
+.image_content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
