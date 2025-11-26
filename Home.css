@@ -37,3 +37,36 @@ body{
     width: auto;
     display: block;
 }
+
+.navBar {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.navBar a {
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+.navBar a:hover {
+    color: #089da1;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
