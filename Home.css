@@ -201,3 +201,16 @@ body{
     color: #089da1;
     font-size: 36px;
 }
+
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .feature {
+        width: 90%; 
+        max-width: none;
+    }
+}
