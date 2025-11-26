@@ -37,3 +37,9 @@ body{
     width: auto;
     display: block;
 }
+
+.navBar {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
