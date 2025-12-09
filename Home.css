@@ -379,12 +379,29 @@ body{
         height: 150px;
     }
 }
-.book-box2{display: inline-block;
-           border: solid thin rgba(0,0,0,0.2);
-           margin: 2.2%;
-           margin-top: 1%;}
-  .book-box2:hover{border: 1px solid #e0e0e0;
-                 box-shadow: 0px 1px 6px #089da1;}
+
+.second-sec{margin-top: 15%;}
+ 
+.checked{color: #98c3bd;}
+
+.stars{text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: 5%;}
+
+.text-new-arrival{
+ margin-left: 20%;
+}
+
+.image{
+    padding: 50px;
+         padding-top: 1%;
+         padding-bottom: 5%;
+         transition: transform 0.3s ease;
+        }
+
+.image:hover{transform:scale(1.05);
+               transition: 2s;}
 
 
                  
