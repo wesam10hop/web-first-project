@@ -556,3 +556,42 @@ body{
     margin-top: 4px;
     line-height: 1.5;
 }
+#footer .columns .col2 .elements{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#footer .columns .col2 a{
+    text-decoration: none;
+    color: black;
+}
+
+#footer .columns .col3 .elements{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#footer .columns .col3 .elements i{
+    margin-right: 0.3em;
+}
+
+#footer .columns .col4 i{
+    margin-right: 0.4em;
+    color: black;
+}
+
+#footer .columns .col5{
+    width: 16%;
+}
+
+#footer .columns .col5 .textarea{
+  width: 70%;
+  height: 1.2em;
+  padding: 5px 5px 5px 13px;
+  background-color: rgb(199, 194, 194);
+  border-radius: 20px;
+  font-size: 0.8em;
+  resize: none;
+  border: none;
+
+}
