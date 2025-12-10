@@ -425,4 +425,32 @@ body{
     width: 23%;
     height: 23%;
     margin-bottom: 0.5em;
+}   
+.reviews_h3{
+    font-size: 1.3em;
+    color: #000;
+    margin-top: 0px;
+}
+
+.reviews_qouto{
+    position: absolute;
+    top: -0.2em;
+    right: 0;
+    font-size: 9em;
+    color: #e0e0e0;
+    font-family: Georgia, serif;
+}
+
+.reviews_p{
+    text-align: justify;         
+    word-break: break-all;   
+    hyphens: auto; 
+    margin-top: -1em;
+}
+
+.reviews_stars{
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+    color: #00bcd4;
+    font-size: 0.8em;
 }
