@@ -521,4 +521,38 @@ body{
     margin-bottom: 1em;
     font-size: 0.9em;
     color: var(--main-color);
+} 
+/* loay  : footer */
+
+#footer{
+    background-color: #E0E0E0;
+    padding: 10px 5em;
+    padding-bottom: 1em;
+}
+#footer .columns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 0.4em 3em; */
+    gap: 7%;
+    padding-bottom: 2em;
+    font-size: 0.8em;
+}
+#footer .columns{
+    min-width: 15em;
+}
+#footer .columns .col1{
+    width: 16%;
+}
+#footer .columns .col1 img{
+    width: 35%;
+}
+#footer .columns .col1 p{
+    text-align: justify;         
+    word-break: normal;   
+    hyphens: auto; 
+    white-space: normal;
+    margin: 0;
+    margin-top: 4px;
+    line-height: 1.5;
 }
