@@ -477,3 +477,27 @@ body{
 #digital_book > button:hover{
     cursor: pointer;
 }
+/* loay : blog section  */
+#blog{
+    margin-bottom: 1.5em;
+}
+#blog > h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+.blog_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-evenly;
+}
+
+.blog_card{
+    display: block;
+    width: 24%;
+    background-color: #fff;
+    border: 2px solid  #cdc8c8;
+    box-shadow: 0 0 10px rgba(7, 7, 7, 0.1);
+    min-width: 20em;
+}
