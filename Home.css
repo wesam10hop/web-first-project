@@ -379,3 +379,31 @@ body{
         height: 150px;
     }
 }
+.book-box2{display: inline-block;
+           border: solid thin rgba(0,0,0,0.2);
+           margin: 2.2%;
+           margin-top: 1%;}
+  .book-box2:hover{border: 1px solid #e0e0e0;
+                 box-shadow: 0px 1px 6px #089da1;}
+ /* loay : review section */
+    @media (max-width: 768px) {
+    #about {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px; 
+        }
+    }
+.reviews-h1{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+    font-size: 3em;
+}
+.reviews_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-evenly;
+    padding-left: 2em;
+    padding-right: 2em;
+}
