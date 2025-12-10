@@ -406,4 +406,23 @@ body{
     justify-content: space-evenly;
     padding-left: 2em;
     padding-right: 2em;
+}  
+.reviews_card{
+    background-color: #fff;
+    padding: 1em;
+    width: 20%;
+
+    position: relative;
+    border: 2px solid  #dfefff; 
+    box-shadow: 0 0 5px rgba(4, 4, 14, 0.5);
+    min-width: 30vb; 
+}
+.reviews_card:hover{
+    cursor: pointer;
+}
+.reviews_img{
+    border-radius: 50%;
+    width: 23%;
+    height: 23%;
+    margin-bottom: 0.5em;
 }
